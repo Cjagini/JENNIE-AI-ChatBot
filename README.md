@@ -9,8 +9,7 @@ A modern, full-stack AI chatbot application powered by Google Gemini API. This a
 **Conversation History** - Maintains context across messages in sessions  
 **Real-time Communication** - Instant message delivery  
 **Fully Responsive** - Works on desktop and mobile devices  
-**Fast & Efficient** - Optimized performance with FastAPI  
+**Fast & Efficient** - Optimized performance with FastAPI
 
-**Enjoy chatting with your AI assistant! **
 
 
