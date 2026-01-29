@@ -9,7 +9,7 @@ import uvicorn
 
 load_dotenv()
 
-app = FastAPI(title="AI ChatBot API", version="1.0.0")
+app = FastAPI(title="JENNIE API", version="1.0.0")
 
 # Configure CORS
 app.add_middleware(
@@ -123,7 +123,7 @@ async def clear_history(session_id: str):
 
 if __name__ == "__main__":
     port = int(os.getenv("PORT", 5000))
-    print(f"🤖 AI Chatbot Backend running on http://localhost:{port}")
+    print(f"🤖 JENNIE Backend running on http://localhost:{port}")
     print(f"📡 API endpoints available at http://localhost:{port}/api")
     print(f"📚 Swagger docs available at http://localhost:{port}/docs")
     uvicorn.run(app, host="0.0.0.0", port=port)

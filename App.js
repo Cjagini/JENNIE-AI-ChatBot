@@ -9,7 +9,7 @@ function App() {
   const [messages, setMessages] = useState([
     {
       id: 1,
-      text: 'Hello! I\'m an AI ChatBot. How can I help you today?',
+      text: 'Hello! I\'m JENNIE. How can I help you today?',
       sender: 'bot',
       timestamp: new Date(),
     },
@@ -82,7 +82,7 @@ function App() {
     setMessages([
       {
         id: 1,
-        text: 'Hello! I\'m an AI ChatBot. How can I help you today?',
+        text: 'Hello! I\'m JENNIE. How can I help you today?',
         sender: 'bot',
         timestamp: new Date(),
       },
@@ -93,7 +93,7 @@ function App() {
     <div className="app">
       <div className="chat-container">
         <div className="chat-header">
-          <h1>🤖 AI ChatBot</h1>
+          <h1>🤖 JENNIE</h1>
           <button className="clear-btn" onClick={handleClearChat}>
             Clear Chat
           </button>
